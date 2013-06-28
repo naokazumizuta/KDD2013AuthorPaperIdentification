@@ -1,0 +1,20 @@
+# init
+RootDir <- "C:/Users/nao/Documents/GitHub/KDD2013AuthorPaperIdentification"
+source(paste(RootDir, "/r/init.R", sep = ''))
+
+setwd(Dir$r)
+system.time(source("make_valid_mod.R"))
+setwd(Dir$r)
+system.time(source("read.R"))
+setwd(Dir$r)
+system.time(source("preprocess.R"))
+setwd(Dir$r)
+system.time(source("make_train_data.R"))
+setwd(Dir$r)
+system.time(source("make_valid_data.R"))
+setwd(Dir$r)
+system.time(source("make_test_data.R"))
+setwd(Dir$r)
+system.time(source("train.R"))
+setwd(Dir$r)
+system.time(source("submitter.R"))
