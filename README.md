@@ -20,11 +20,13 @@ To run scripts, you first need to deploy the following raw data set properly in 
 #####
 init.R
     do initial set-up.
+
 util.R
     includes functions and character convert dictionaries to be used. This file is called in init.R.
 
 #####
 You need to run the scripts in the following order. Also you need about 10 GByte of memory.
+
 make_valid_mod.R
     creates Valid_mod.csv file from Valid.csv and ValidSolution.csv. The resulting file has the same format as Train.csv.
 read.R
